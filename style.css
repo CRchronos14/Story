@@ -103,7 +103,10 @@ h2 {
 .switched .container {
   transition: background-color 0.6s;
 }
-
+.kk {
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
 p {
   font-size: 13pt;
   color: #888;
@@ -259,4 +262,9 @@ body.dark {
 
 .dark #controls {
   background: black;
+}
+
+.dark .kk {
+  font-weight: 600;
+  color: rgb(194, 194, 194);
 }

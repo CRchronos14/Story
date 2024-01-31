@@ -151,6 +151,16 @@ img {
   transition: opacity 1s;
 }
 
+.danger {
+  font-weight: 600;
+  color: red;
+}
+
+.light {
+  color: #ababab;
+  text-shadow: 0 0 1.5rem rgb(0, 217, 255);
+  text-align: center;
+}
 /*
   Class applied to all choices
   (Will always appear inside <p> element by default.)
